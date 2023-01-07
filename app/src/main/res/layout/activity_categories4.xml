@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".categories4"
+    android:background="@drawable/homebck">
+
+    <ImageView
+        android:id="@+id/homeimg"
+        android:layout_width="153dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginEnd="129dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device Repairing"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/homebtnh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:layout_marginTop="675dp"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/homebtna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categories"
+        android:layout_toRightOf="@id/homebtnh"
+        android:layout_marginTop="675dp"
+        android:layout_marginLeft="25dp"/>
+
+    <Button
+        android:id="@+id/homebtnp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:layout_toRightOf="@id/homebtna"
+        android:layout_marginTop="675dp"
+        android:layout_marginLeft="25dp"/>
+
+    <ImageButton
+        android:id="@+id/c4a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dr1"
+        android:layout_marginTop="225dp"/>
+
+    <ImageButton
+        android:id="@+id/c4a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dr2"
+        android:layout_toRightOf="@id/c4a1"
+        android:layout_marginTop="225dp"/>
+
+</RelativeLayout>

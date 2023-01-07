@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebck"
+    tools:context=".HomePage">
+
+    <ImageView
+        android:id="@+id/homeimg"
+        android:layout_width="153dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginEnd="129dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/homepop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-25dp"
+        android:text="Explore our Most Popular Services"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="111dp"
+        android:layout_below="@+id/homeimg"/>
+
+    <ImageButton
+        android:id="@+id/homead1"
+        android:layout_width="164dp"
+        android:layout_height="213dp"
+       android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/ad1"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_below="@+id/homepop"/>
+
+    <ImageButton
+        android:id="@+id/homead2"
+        android:layout_width="164dp"
+        android:layout_height="213dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="203dp"
+        android:background="@drawable/ad2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_toRightOf="@+id/homead1"/>
+
+    <ImageButton
+        android:id="@+id/homead3"
+        android:layout_width="164dp"
+        android:layout_height="213dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/ad3"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/homead1"/>
+
+    <ImageButton
+        android:id="@+id/homead4"
+        android:layout_width="164dp"
+        android:layout_height="213dp"
+        android:layout_marginLeft="205dp"
+        android:background="@drawable/ad4"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_below="@+id/homead2"/>
+
+    <Button
+        android:id="@+id/homebtnh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:layout_marginTop="675dp"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/homebtna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categories"
+        android:layout_toRightOf="@id/homebtnh"
+        android:layout_marginTop="675dp"
+        android:layout_marginLeft="25dp"/>
+
+    <Button
+        android:id="@+id/homebtnp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:layout_toRightOf="@id/homebtna"
+        android:layout_marginTop="675dp"
+        android:layout_marginLeft="25dp"/>
+
+
+</RelativeLayout>

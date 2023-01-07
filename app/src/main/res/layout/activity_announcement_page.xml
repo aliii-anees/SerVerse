@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebck"
+    tools:context=".AnnouncementPage">
+
+    <ImageView
+        android:id="@+id/homeimg"
+        android:layout_width="153dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginEnd="129dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/annbtnh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="home"
+        android:layout_marginTop="675dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button
+        android:id="@+id/annbtna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categories"
+        android:layout_toRightOf="@+id/annbtnh"
+        android:layout_marginTop="675dp"
+        android:layout_marginLeft="25dp"/>
+
+    <Button
+        android:id="@+id/annbtnp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="profile"
+        android:layout_toRightOf="@+id/annbtna"
+        android:layout_marginTop="675dp"
+        android:layout_marginLeft="25dp"
+        />
+
+
+    <Button
+        android:id="@+id/annad1"
+        android:layout_width="399dp"
+        android:layout_height="124dp"
+        android:text="House Cleaning"
+        android:layout_below="@+id/homeimg"
+        android:layout_marginLeft="6dp"/>
+
+    <Button
+        android:id="@+id/annad2"
+        android:layout_width="399dp"
+        android:layout_height="124dp"
+        android:text="Pet Caretaking"
+        android:layout_below="@+id/annad1"
+        android:layout_marginLeft="6dp"/>
+
+    <Button
+        android:id="@+id/annad3"
+        android:layout_width="399dp"
+        android:layout_height="124dp"
+        android:text="Gym Coaching"
+        android:layout_below="@+id/annad2"
+        android:layout_marginLeft="6dp"/>
+
+    <Button
+        android:id="@+id/annad4"
+        android:layout_width="399dp"
+        android:layout_height="124dp"
+        android:text="Device Repairs"
+        android:layout_below="@+id/annad3"
+        android:layout_marginLeft="6dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categories"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20dp"/>
+
+</RelativeLayout>

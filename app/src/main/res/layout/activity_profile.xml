@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebck"
+    tools:context=".Profile">
+
+    <ImageView
+        android:id="@+id/homeimg"
+        android:layout_width="153dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginEnd="129dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/profbtnh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="home"
+        android:layout_marginTop="675dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button
+        android:id="@+id/profbtna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categories"
+        android:layout_toRightOf="@+id/profbtnh"
+        android:layout_marginTop="675dp"
+        android:layout_marginLeft="25dp"/>
+
+    <Button
+        android:id="@+id/profbtnp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="profile"
+        android:layout_toRightOf="@+id/profbtna"
+        android:layout_marginTop="675dp"
+        android:layout_marginLeft="25dp"
+        />
+
+    <Button
+        android:id="@+id/proflogout"
+        android:layout_width="398dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="6dp"
+        android:text="Logout"
+
+        />
+
+</RelativeLayout>
